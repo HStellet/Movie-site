@@ -1,0 +1,281 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: rgba(0,0,0,0.6);
+}
+
+button{
+	cursor: pointer;
+}
+#outer{
+	width: 84%;
+	margin-left: 8%;
+	height: 100vh;
+}
+
+#name{
+	/*padding-top: 10px; */
+	display: inline-block;
+	color: #F5FFFA;
+		/*color: #F5FFFA;*/	
+		position: absolute;
+		top: 0px;
+	margin: 10px 60px 0px 40px;
+}
+#now{
+	/*display: inline-block;*/
+	color: #F5FFFA;
+	/*color: #F5FFFA;*/
+	margin: 10px 60px 0px 40px;
+}
+#name h1{
+		color: #F5FFFA;
+}
+
+.box{
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+}
+.img{
+	display: inline-block;
+	margin: 20px;
+	background-color: #274659;
+	border-radius: 5px;
+	color:#F5FFFA;
+	padding: 4px;
+	cursor: pointer;
+}
+.img img{
+	height: 250px;
+	width: 200px;
+}
+#nav{
+	background-color: #1f2533;
+	min-height: 30px;
+}
+#nav form{
+	display: inline-block;
+	width: 650px;
+	margin-top: 20px;
+	margin-left: 240px;
+}
+#nav select, #nav option{
+	display: inline-block;
+	height: 30px;
+	width: 20%;
+	margin-left: 3%;
+}
+#inp{
+	padding: 11px 10px 8px 10px;
+	margin-right: 0px;
+	width: 80%;
+	height: 20px;
+	border-radius: 6px 0px 0px 6px;
+}
+#nav button{
+	height: 44px;
+	/*border-radius: 0px 4px 4px 0px;*/
+	width: 15%;
+	background-color: transparent;
+	border: 1px solid #F5FFFA;
+	color: #F5FFFA;
+}
+.time,.day{
+	display: inline-block;
+	margin-right: 10px;
+
+}
+#timebox,#daybox{
+	padding-top: 10px;
+}
+.time button,.day button{
+	text-decoration: none;
+	border: none;
+	outline: none;
+	padding: 5px;
+	background-color: #F5FFFA;
+	border:1px solid #F5FFFA;
+}
+
+#active button{
+	background-color: #27ae60;
+	color: #F5FFFA;
+	border:1px solid #27ae60;
+}
+.day button:hover, .time{
+	/*background-color: #27ae60;*/
+	border:1px solid #27ae60;
+	/*color: #F5FFFA;*/
+}
+.tbut{
+	outline:none;
+}
+ .tbut:hover{
+ 	background-color: #27ae60;
+ 	color: white;
+ }
+th, td {
+    border: 1px solid #27ae60;
+    border-radius: 4px;
+    padding: 10px 9px;
+    background-color: #F5FFFA;
+}
+td:hover{
+	background-color: #27ae60;
+	cursor: pointer;
+}
+table{
+	background: #F5FFFA;
+	padding: 40px;
+}
+.space{
+	background: transparent;
+	border: none;
+	padding: 0px;
+
+}
+.space:hover{
+	cursor: default;
+	background-color: transparent;
+}
+.space1{
+	background: grey;
+	border: none;
+	padding: 3px;
+
+}
+.space1:hover{
+	cursor: default;
+	background-color: grey;
+}
+#checkbox button{
+position: relative;
+right: 0px;
+}
+#total{
+	display: inline-block;
+	width: 90%;
+}
+
+
+#paymentdet{
+	background-color: grey;
+	width:90%;
+	border-radius: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	/*display: inline-block;*/
+}
+#imgpop{
+	display: inline-block;
+	width: 400px;
+}
+#payfullbox{
+	display: inline-block;
+	width: 30%;
+	margin-left: 20px;
+	padding-bottom: 132px;
+}
+#paymentdet input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 7px;
+	/*width: 60%;*/
+}
+#carddetails{
+	/*background-color: #F5FFFA;*/
+	padding: 6px;
+}
+#emonth{
+	margin-right: 40px;
+}
+.expiry{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#makepayment, #proceed{
+	margin-top: 10px;
+	background-color: #c33; /* Green */
+    border: none;
+    color: #F5FFFA;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	}
+#makepayment:hover, #proceed:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	}
+
+
+	#inp{
+		background-color: transparent;
+		border: none;
+		outline: none;	
+		border-radius: 0px;
+		border-bottom: 1.5px solid #F5FFFA;
+	}
+	#inp:focus{
+
+	}
+	select{
+		border-radius: 5px;
+		width: 30px;
+		outline: none;
+		color: #F5FFFA;
+		background-color: transparent;
+		/*border:none;*/
+	}
+	option{
+		width: 30px;
+	}
+	.box{
+		border-radius: 2px;
+		/*background-color: #C2EABA;*/
+		border: 1.5px solid #C2EABA;
+	}
+	body{
+		background-color: #F5FFFA;
+	}
+	#popcorn{
+		display: inline-block;
+	}
+	#price{
+		padding-left: 10px;
+		padding-top: 20px;
+	}
+	#det{
+		display: inline-block;
+		width: 32%;
+		margin-right: 30px;
+		border: 1px solid #27ae60;
+	}	
+	#data{
+		margin-bottom: 30px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		background-color: #27ae60;
+		color: white;
+	}
+	#data1, #data2, #data3, #data4{
+		margin-left: 20px;
+	}
+	.boxpay{
+		padding-top: 30px;
+	}
+	.mall{
+		padding: 10px 0px 0px 0px;
+	}
+	.vidbox{
+		padding-bottom: 0px;
+	}
+	.nav2{
+		margin-top: 37px;
+	}
