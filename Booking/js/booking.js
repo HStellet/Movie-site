@@ -2,12 +2,11 @@ var time = localStorage.getItem('time');
 var day = parseInt(localStorage.getItem('day'));
 var days=["Monday","Tueday","Wednesday","Thursday"];
 
-
+// console.log(localStorage.getItem("name"));
 document.getElementById('movtime').innerHTML=time;
 document.getElementById('movday').innerHTML=days[day-1];
-var name2=["IT","Judwaa 2","American Assassin","Home Again","American Made","Bailaras","Chef","Newton","Spiderman: Homecomming","Blade Runner"];
-var id=parseInt(localStorage.getItem('name'));
-document.getElementById('movname').innerHTML=name2[id-1];
+
+document.getElementById('movname').innerHTML=localStorage.getItem("name");
 
 var seat=document.getElementsByTagName('td');
 var num=0;
@@ -34,7 +33,6 @@ var price=0;
 document.getElementById('proceed').onclick=function(){
 	if(price!=0){
 	localStorage.setItem('total',price);
-	window.location="./payment.html";
+	window.location="../html/payment.html";
 }
 };
-

@@ -19,7 +19,7 @@ button{
 	/*padding-top: 10px; */
 	display: inline-block;
 	color: #F5FFFA;
-		/*color: #F5FFFA;*/	
+		/*color: #F5FFFA;*/
 		position: absolute;
 		top: 0px;
 	margin: 10px 60px 0px 40px;
@@ -206,7 +206,7 @@ right: 0px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 	}
 #makepayment:hover, #proceed:hover{
@@ -218,7 +218,7 @@ right: 0px;
 	#inp{
 		background-color: transparent;
 		border: none;
-		outline: none;	
+		outline: none;
 		border-radius: 0px;
 		border-bottom: 1.5px solid #F5FFFA;
 	}
@@ -242,7 +242,8 @@ right: 0px;
 		border: 1.5px solid #C2EABA;
 	}
 	body{
-		background-color: #F5FFFA;
+		background-image: url("../../images/5.jpg");
+
 	}
 	#popcorn{
 		display: inline-block;
@@ -256,7 +257,7 @@ right: 0px;
 		width: 32%;
 		margin-right: 30px;
 		border: 1px solid #27ae60;
-	}	
+	}
 	#data{
 		margin-bottom: 30px;
 		padding-top: 5px;
@@ -272,6 +273,7 @@ right: 0px;
 	}
 	.mall{
 		padding: 10px 0px 0px 0px;
+		color:white;
 	}
 	.vidbox{
 		padding-bottom: 0px;

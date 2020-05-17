@@ -1,7 +1,7 @@
 var days = document.getElementsByClassName('day');
 
 localStorage.setItem('day',"1");
-
+localStorage.setItem("name",localStorage.getItem("name"));
 [].forEach.call(days, function(el) {
    el.onclick = function(){
 		document.getElementById('active').removeAttribute("id");
@@ -55,13 +55,6 @@ var time = document.getElementsByClassName("tbut");
 [].forEach.call(time, function(el){
 	el.onclick = function(){
 		localStorage.setItem("time",el.innerHTML);
-		window.location = "./booking.html";
+		window.location = "../html/booking.html";
 	}
-});
-
-window.addEventListener('load',function(){
-	var arrvid=["FnCdOQsX5kc","DDwbjWCgxVM","bGnrnGpi8IE","lfHZ-B374iA","AEBIJRAkujM","R8juUUreApI","YaFJXd3ciLs","yU6zMPFd4UU","n9DwoQ7HWvI","gCcx85zbxz4"];
-	var name = parseInt(localStorage.getItem('name'));
-	var a = document.getElementById('vid');
-	a.setAttribute('src',"http://www.youtube.com/embed/"+arrvid[name-1]);
 });
